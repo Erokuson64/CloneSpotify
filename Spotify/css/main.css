@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #1db954; 
+}
+
+input[type="text"] {
+    width: calc(100% - 150px);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.song-list {
+    margin-top: 20px;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
